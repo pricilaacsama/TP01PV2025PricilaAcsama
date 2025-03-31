@@ -1,0 +1,49 @@
+# Directorios del sistema operativo
+AppData/
+Application Data/
+Cookies/
+Local Settings/
+My Documents/
+NetHood/
+PrintHood/
+Recent/
+SendTo/
+Start Menu/
+Templates/
+NTUSER.DAT*
+ntuser.dat*
+
+# Directorios de configuracion de usuario
+../
+../../../.bash_history
+../../../.cache/
+../../../.config/
+../../../.docker/
+../../../.eclipse/
+../../../.git-for-windows-updater
+../../../.m2/
+../../../.modelio/
+../../../.sts4/
+../../../.vscode/
+../../../Contacts/
+../../../Documents/
+../../../Downloads/
+../../../Favorites/
+../../../IntelGraphicsProfiles/
+../../../Links/
+../../../Music/
+../../../Saved Games/
+../../../Searches/
+../../../Videos/
+../../../git/
+../../../modelio/
+../../../mysql/
+../../../pseint/
+../../../steezy pagina/
+../../../zinjai/
+
+# Otros archivos y directorios que quieras ignorar
+*.log
+node_modules/
+dist/
+build/

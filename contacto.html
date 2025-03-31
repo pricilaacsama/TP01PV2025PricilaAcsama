@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <style>
+        /* Estilos Internos */
+        #contacto form {
+            display: grid;
+            gap: 1rem;
+        }
+
+        #contacto label {
+            font-weight: 600;
+            color: #555;
+        }
+
+        #contacto input[type="text"],
+        #contacto input[type="email"],
+        #contacto textarea {
+            padding: 0.75rem;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+
+        #contacto textarea {
+            height: 150px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Descubre la cultura de Honolulu</h1>
+    </header>
+    <nav id="menu">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="museos.html">Museos y galerías</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div style="max-width: 600px; margin: 2rem auto; padding: 2rem; background-color: #e6f7ff; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+            <section id="contacto">
+                <h2 style="color: #333; margin-bottom: 1.5rem; border-bottom: 2px solid #eee; padding-bottom: 0.5rem;">Envíanos un mensaje</h2>
+                <form action="procesar_formularion.php" method="post">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                    <label for="apellido">Apellido:</label>
+                    <input type="text" id="apellido" name="apellido" required>
+                    <label for="email">Correo electrónico:</label>
+                    <input type="email" id="email" name="email" required>
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea id="mensaje" name="mensaje" required></textarea>
+                    <button type="submit" style="background-color: #a72828; color: white; padding: 1rem 1.5rem; border: none; border-radius: 4px; cursor: pointer; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size: medium;">Enviar</button>
+                </form>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <p>Derechos de autor &copy; 2021 Honolulu Cultural Foundation</p>
+    </footer>
+</body>
+</html>
