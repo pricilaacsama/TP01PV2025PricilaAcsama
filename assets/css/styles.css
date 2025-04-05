@@ -49,6 +49,50 @@ nav#menu li a:hover {
 nav#menu li:last-child{
     margin-right: 0;
 }
+
+#barra-lateral {
+    background-color: #f9f4f2;
+    padding: 20px;
+    width: 280px;
+    border-radius: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+#barra-lateral h3 {
+    margin-bottom: 16px;
+    color: #333;
+    font-size: 1.3em;
+    font-weight: 600;
+}
+
+#barra-lateral ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#barra-lateral li {
+    margin-bottom: 10px;
+}
+
+#barra-lateral a {
+    text-decoration: none;
+    color: #0a4eb3;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+#barra-lateral a:hover {
+    color: #c95757;
+}
+.logo {
+    width: 50%;
+    height: auto;
+    border-radius: 8px;
+    margin: 0 auto 1rem;
+    display: block;
+}
 footer {
     background-color: #d3d3d3;
     text-align: center;
